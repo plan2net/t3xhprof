@@ -1,0 +1,14 @@
+{
+  "name": "plan2net/t3-xhprof",
+  "version": "0.0.1",
+  "license": [
+    "GPL-2.0"
+  ],
+  "description": "TYPO3 xhprof integration",
+  "type": "typo3-cms-extension",
+  "autoload": {
+    "psr-4": {
+      "Plan2net\\T3Xhprof\\": "Classes/"
+    }
+  }
+}

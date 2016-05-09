@@ -1,0 +1,4 @@
+# cat=basic; type=boolean; label= Enable the profiling
+enabled = 0
+# cat=basic; type=string; label= GET-Param to trigger profiling
+get_param = prof
