@@ -13,5 +13,5 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>
 */
 
-$TYPO3_CONF_VARS['SC_OPTIONS']['tslib/index_ts.php']['preprocessRequest'][]=Plan2net\T3Xhprof\Hook\XHProfFeHook::preInit();
-$TYPO3_CONF_VARS['SC_OPTIONS']['tslib/class.tslib_fe.php']['hook_eofe'][]=Plan2net\T3Xhprof\Hook\XHProfFeHook::contentPostProc();
+$TYPO3_CONF_VARS['SC_OPTIONS']['tslib/index_ts.php']['preprocessRequest'][] = Plan2net\T3Xhprof\Hook\XHProfFeHook::preInit();
+$TYPO3_CONF_VARS['SC_OPTIONS']['tslib/class.tslib_fe.php']['hook_eofe'][] = Plan2net\T3Xhprof\Hook\XHProfFeHook::contentPostProc();
